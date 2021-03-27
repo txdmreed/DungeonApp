@@ -44,10 +44,11 @@
     <Compile Include="Characters.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Combat.cs" />
+    <Compile Include="Doctors.cs" />
     <Compile Include="Monster.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Race.cs" />
+    <Compile Include="SoundLibrary.cs" />
     <Compile Include="Weapon.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

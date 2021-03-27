@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DungeonLibrary
+namespace MonsterLibrary
 {
-    class Race
+    public class Sontarans
     {
     }
 }

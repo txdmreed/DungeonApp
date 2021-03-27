@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8C7B7419-5D25-4AC0-A2E8-D49482DD8E78}</ProjectGuid>
+    <ProjectGuid>{49829B6F-C231-49F4-BA09-6EB2CB62D8EA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MonsterLibrary</RootNamespace>
-    <AssemblyName>MonsterLibrary</AssemblyName>
+    <RootNamespace>DoctorLibrary</RootNamespace>
+    <AssemblyName>DoctorLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,14 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sontarans.cs" />
+    <Compile Include="Donna.cs" />
+    <Compile Include="Ten.cs" />
+    <Compile Include="Thirteen.cs" />
+    <Compile Include="Twelve.cs" />
+    <Compile Include="Eleven.cs" />
+    <Compile Include="Five.cs" />
+    <Compile Include="Four.cs" />
+    <Compile Include="Two.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DungeonLibrary\DungeonLibrary.csproj">
-      <Project>{8274e4c1-426d-49e2-8ec4-d79a16a64120}</Project>
-      <Name>DungeonLibrary</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

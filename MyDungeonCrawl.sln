@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonLibrary", "DungeonLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonsterLibrary", "MonsterLibrary\MonsterLibrary.csproj", "{8C7B7419-5D25-4AC0-A2E8-D49482DD8E78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorLibrary", "DoctorLibrary\DoctorLibrary.csproj", "{49829B6F-C231-49F4-BA09-6EB2CB62D8EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8C7B7419-5D25-4AC0-A2E8-D49482DD8E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C7B7419-5D25-4AC0-A2E8-D49482DD8E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C7B7419-5D25-4AC0-A2E8-D49482DD8E78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49829B6F-C231-49F4-BA09-6EB2CB62D8EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49829B6F-C231-49F4-BA09-6EB2CB62D8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49829B6F-C231-49F4-BA09-6EB2CB62D8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49829B6F-C231-49F4-BA09-6EB2CB62D8EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
